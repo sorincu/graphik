@@ -1,0 +1,21 @@
+.content {
+  margin: 60px auto;
+  box-sizing: border-box;
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  row-gap: 60px;
+  margin-bottom: 60px;
+}
+
+.articleTitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.articleTitle:not(:last-child) {
+  border-bottom: 1px solid var(--lightGray);
+  margin-bottom: 15px;
+}

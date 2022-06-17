@@ -1,0 +1,76 @@
+/* Logo font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Button font - sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+/* Content font - serif */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+/* Variables */
+:root {
+  /* Font variables */
+  --largeFontSize: 36px;
+  --mediumFontSize: 18px;
+
+  /* Color variables */
+  --lightGray: rgb(187, 187, 187);
+  --darkGray: rgb(112, 112, 112);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* General classes */
+/* --------------- */
+/* Width */
+.dbl-width {
+  max-width: 640px;
+  width: 50vw;
+}
+
+.std-width {
+  max-width: 269px;
+  width: 20.3vw;
+}
+
+.medium-width {
+  max-width: 287px;
+  width: 22.4vw;
+}
+
+/* Border */
+.border-sides {
+  padding: 0 15px;
+  border-right: 1px solid var(--lightGray);
+  border-left: 1px solid var(--lightGray);
+  margin: 0 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--lightGray);
+  margin-bottom: 15px;
+}
+
+.border-right {
+  border-right: 1px solid var(--lightGray);
+  padding-right: 15px;
+  margin-right: 15px;
+}

@@ -1,0 +1,31 @@
+.title {
+  margin: 5px 0 10px 0;
+}
+
+.author {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.categoryDateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  font-size: 11px;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.description {
+  font-family: 'EB Garamond';
+  font-size: var(--mediumFontSize);
+  margin: 10px 0 20px 0;
+  color: var(--darkGray);
+}

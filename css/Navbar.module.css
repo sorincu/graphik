@@ -1,0 +1,40 @@
+/* Navbar styling */
+.navbarWrapper {
+  background-color: rgb(77, 77, 77);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 50px;
+  max-width: 1240px;
+}
+
+.navbarLinks {
+  display: flex;
+  align-self: center;
+  font-size: 14px;
+  color: white;
+}
+
+.navbarLinks > *:not(:first-child) {
+  margin-left: 20px;
+}
+
+.logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  color: rgb(185, 185, 185);
+  text-align: center;
+  width: 100%;
+}
+
+.subscribeBtn {
+  padding: 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

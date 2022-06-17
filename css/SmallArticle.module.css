@@ -1,0 +1,27 @@
+.article {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.titleAuthorContainer {
+  margin-right: 10px;
+}
+
+.title {
+  margin: 5px 0 10px 0;
+  font-size: var(--mediumFontSize);
+}
+
+.author {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
