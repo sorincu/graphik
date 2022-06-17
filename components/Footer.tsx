@@ -3,21 +3,36 @@ import styles from '../css/Footer.module.css';
 
 function Footer() {
   return (
-    <div className={styles.footerWrapper}>
-        <div className={`${styles.content} border-bottom`}>
-        <div className={styles.footerSection}>
-          <h1 className={styles.footerSectionHeader}>About</h1>
+    <div className={styles.wrapper}>
+      <div className={`${styles.footer} border-bottom`}>
+        <div className={styles.section}>
+          <h1 className={styles.sectionHeader}>About</h1>
 
           <p>Our History</p>
           <p>Categories</p>
         </div>
 
-        <div className={styles.footerSection}>
-          <h1 className={styles.footerSectionHeader}>Contact</h1>
+        <div className={styles.section}>
+          <h1 className={styles.sectionHeader}>Contact</h1>
 
           <p>Our History</p>
           <p>Categories</p>
         </div>
+      </div>
+
+      <div className={styles.copyrightBar}>
+        <div className={styles.policies}>
+          <p>Privacy Policy</p>
+          <p>Advertising Guidelines</p>
+          <p>Terms &amp; Conditions</p>
+          <p>Site Map</p>
+          <p>
+            graphik.com Copyright (c) 2022 by graphik Group. All Rights
+            Reserved.
+          </p>
+        </div>
+
+        <h2 className={styles.logo}>graphik</h2>
       </div>
     </div>
   );

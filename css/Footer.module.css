@@ -1,21 +1,21 @@
-.footerWrapper {
+.wrapper {
   background-color: rgb(77, 77, 77);
   color: white;
 }
 
-.content {
+.footer {
   margin: 0 auto;
   box-sizing: border-box;
   max-width: 1240px;
-  padding: 30px 0;
+  padding: 10px 0;
   display: flex;
 }
 
-.content > * {
+.footer > * {
   padding-right: 60px;
 }
 
-.footerSectionHeader {
+.sectionHeader {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
@@ -23,12 +23,40 @@
   text-transform: uppercase;
 }
 
-.footerSection > * {
+.section > * {
   margin: 20px 0;
 }
 
-.footerSection > p {
+.section > p {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 100;
   font-size: 14px;
+}
+
+.logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  color: rgb(185, 185, 185);
+  text-align: center;
+  width: 100%;
+}
+
+.copyrightBar {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1240px;
+  padding: 10px 0;
+  display: inline;
+}
+
+.policies {
+  display: flex;
+}
+
+.policies > p {
+  font-size: 10px;
+}
+
+.policies:not(:last-child) {
+  border-right: 1px solid gray;
 }
