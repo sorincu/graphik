@@ -1,25 +1,29 @@
 import * as React from 'react';
-import styles from './css/App.module.css';
-import Button from '@mui/material/Button';
+import { Link, Route, Routes } from 'react-router-dom';
 import './index.css';
 
 // modules
 import Navbar from './components/Navbar';
-import PrimaryArticles from './components/PrimaryArticles';
-import Ad from './components/Ad';
-import SecondaryArticles from './components/SecondaryArticles';
-import Categories from './components/Categories';
-import Footer from './components/Footer';
+
+// routes
+import Home from './routes/Home';
+import About from './routes/About';
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <PrimaryArticles />
-      <Ad />
-      <SecondaryArticles />
-      <Categories />
-      <Footer />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about/*" element={<About />} />
+        {/* <Route
+          path="/products/all/:productId/*"
+          element={<ProductDetails addToCart={addToCart} />}
+        />
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:categoryId" element={<Products />} /> */}
+      </Routes>
     </div>
   );
 }

@@ -56,6 +56,7 @@
 
 .policies > p {
   font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .policies > *:not(:last-child) {
