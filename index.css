@@ -18,7 +18,7 @@
 
   /* Color variables */
   --lightGray: rgb(187, 187, 187);
-  --darkGray: rgb(112, 112, 112);
+  --darkGray: rgb(34, 34, 34);
 }
 
 * {
@@ -29,6 +29,13 @@
 
 p {
   font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  cursor: pointer;
 }
 
 h1,

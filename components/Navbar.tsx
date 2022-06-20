@@ -1,4 +1,5 @@
 import React = require('react');
+import { Link } from 'react-router-dom';
 import styles from '../css/Navbar.module.css';
 
 function Navbar() {
@@ -6,11 +7,15 @@ function Navbar() {
     <div className={styles.navbarWrapper}>
       <div className={styles.navbar}>
         <div className={styles.navbarLinks}>
-          <p>Popular</p>
-          <p>Latest</p>
+          <p>Menu</p>
+          <p>Search</p>
+          <Link to="/popular">Popular</Link>
+          <Link to="/latest">Latest</Link>
         </div>
 
-        <h2 className={styles.logo}>graphik</h2>
+        <Link to="/">
+          <h2 className={styles.logo}>graphik</h2>
+        </Link>
 
         <button className={styles.subscribeBtn}>Subscribe</button>
       </div>

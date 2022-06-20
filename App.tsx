@@ -8,6 +8,8 @@ import Navbar from './components/Navbar';
 // routes
 import Home from './routes/Home';
 import About from './routes/About';
+import Popular from './routes/Popular';
+import Latest from './routes/Latest';
 
 export default function App() {
   return (
@@ -16,7 +18,9 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about/*" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/popular" element={<Popular />} />
+        <Route path="/latest" element={<Latest />} />
         {/* <Route
           path="/products/all/:productId/*"
           element={<ProductDetails addToCart={addToCart} />}
