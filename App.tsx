@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useLayoutEffect } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './index.css';
 
@@ -15,6 +16,10 @@ import About from './routes/About';
 import ArticlesByType from './routes/ArticlesByType';
 
 export default function App() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div>
       <Navbar />
