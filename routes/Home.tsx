@@ -14,7 +14,6 @@ function Home() {
       <Ad />
       <SecondaryArticles />
       <Categories />
-      <Footer />
     </div>
   );
 }

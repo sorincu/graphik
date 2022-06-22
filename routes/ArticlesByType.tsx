@@ -1,13 +1,13 @@
 import React = require('react');
-import styles from '../css/Popular.module.css';
+import styles from '../css/ArticlesByType.module.css';
 
 // data
 import articles from '../data/articles';
 
-function Popular() {
+function ArticlesByType(props) {
   return (
     <div className={styles.content}>
-      <h1 className={`${styles.header} border-bottom`}>Popular</h1>
+      <h1 className={`${styles.header} border-bottom`}>{props.type}</h1>
 
       <div className={styles.articlesAdvertContainer}>
         <div className={styles.articlesContainer}>
@@ -20,11 +20,11 @@ function Popular() {
               />
 
               <div className={styles.articleTextDiv}>
-                <h2>{article.title}</h2>
-                <p>{article.description}</p>
-                <div className={styles.authorDateDiv}>
-                  <p>{article.author}</p>
-                  <p>{article.publicationDate}</p>
+                <h2 className={styles.title}>{article.title}</h2>
+                <p className={styles.description}>{article.description}</p>
+                <div className={styles.authorDateContainer}>
+                  <p className={styles.author}>{article.author}</p>
+                  <p className={styles.date}>{article.publicationDate}</p>
                 </div>
               </div>
             </div>
@@ -39,4 +39,4 @@ function Popular() {
   );
 }
 
-export default Popular;
+export default ArticlesByType;

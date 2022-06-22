@@ -1,0 +1,84 @@
+.content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 960px;
+  padding-top: 40px;
+}
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: rgb(77, 77, 77);
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom-color: rgb(77, 77, 77);
+}
+
+.articlesAdvertContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 100px;
+}
+
+.article {
+  display: flex;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--lightGray);
+  margin-bottom: 25px;
+}
+
+.article:first-child {
+  padding-top: 10px;
+}
+
+.article:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.img {
+  max-width: 270px;
+  width: 200px;
+  height: 120px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.author {
+  font-family: 'Plus Jakarta Sans';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.description {
+  font-family: 'EB Garamond';
+  font-size: var(--mediumFontSize);
+  margin: 10px 0 20px 0;
+  color: var(--darkGray);
+}
+
+.authorDateContainer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.ad {
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 10px;
+}
