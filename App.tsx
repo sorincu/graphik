@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Home from './routes/Home';
 import About from './routes/About';
 import ArticlesByType from './routes/ArticlesByType';
+import Article from './routes/Article';
 
 export default function App() {
   useLayoutEffect(() => {
@@ -37,12 +38,7 @@ export default function App() {
           />
         ))}
 
-        {/* <Route
-          path="/products/all/:productId/*"
-          element={<ProductDetails addToCart={addToCart} />}
-        />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/:categoryId" element={<Products />} /> */}
+        <Route path="/articles/:articleId/*" element={<Article />} />
       </Routes>
 
       <Footer />
