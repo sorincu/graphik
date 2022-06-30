@@ -17,10 +17,6 @@ import ArticlesByType from './routes/ArticlesByType';
 import Article from './routes/Article';
 
 export default function App() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <Navbar />
