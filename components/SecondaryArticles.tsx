@@ -12,21 +12,28 @@ function SecondaryArticles() {
     <div className={`${styles.content}`}>
       <div className={`${styles.row} border-bottom`}>
         <MediumArticle
+          articleId="3"
           feature="border-right medium-width"
           imgWidth="medium-width"
           withContent={true}
         />
         <MediumArticle
+          articleId="3"
           feature="border-right medium-width"
           imgWidth="medium-width"
           withContent={true}
         />
         <MediumArticle
+          articleId="2"
           feature="border-right medium-width"
           imgWidth="medium-width"
           withContent={true}
         />
-        <MediumArticle imgWidth="medium-width" withContent={true} />
+        <MediumArticle
+          articleId="3"
+          imgWidth="medium-width"
+          withContent={true}
+        />
       </div>
 
       <div className={`${styles.row} border-bottom`}>

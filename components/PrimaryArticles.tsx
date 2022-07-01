@@ -16,7 +16,7 @@ function PrimaryArticles() {
             feature="border-bottom"
             imgWidth="std-width"
           />
-          <MediumArticle articleId="2" feature="" imgWidth="std-width" />
+          <MediumArticle articleId="2" imgWidth="std-width" />
         </div>
 
         <div className={styles.middleContainer}>
