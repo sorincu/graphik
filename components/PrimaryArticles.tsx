@@ -11,8 +11,12 @@ function PrimaryArticles() {
     <div className={`${styles.content}`}>
       <div className={`${styles.primaryArticles} border-bottom`}>
         <div className={styles.leftContainer}>
-          <MediumArticle feature="border-bottom" imgWidth="std-width" /> 
-          <MediumArticle feature="" imgWidth="std-width" />
+          <MediumArticle
+            articleId="1"
+            feature="border-bottom"
+            imgWidth="std-width"
+          />
+          <MediumArticle articleId="2" feature="" imgWidth="std-width" />
         </div>
 
         <div className={styles.middleContainer}>
