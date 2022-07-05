@@ -11,16 +11,15 @@ function Article() {
 
   return (
     <div className={`${styles.article}`}>
-      <h2 className={styles.title}>{article.title}</h2>
-
-      <div className={styles.categoryDateContainer}>
+      <div className={styles.titleDescriptionContainer}>
         <p className={styles.category}>{article.category}</p>
-        <p className={styles.date}>{article.publicationDate}</p>
+        {/* <p className={styles.date}>{article.publicationDate}</p> */}
+
+        <h2 className={styles.title}>{article.title}</h2>
+        <p className={styles.description}>{article.description}</p>
       </div>
 
       <img className={styles.img} src={article.previewImg} />
-
-      <p className={styles.description}>{article.description}</p>
 
       <p className={styles.author}>{article.author}</p>
     </div>

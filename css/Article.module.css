@@ -1,15 +1,44 @@
 .article {
-  margin: 20px auto;
+  margin: 60px auto;
   box-sizing: border-box;
   max-width: 1240px;
 }
 
 .img {
-  width: 700px;
-  object-fit: cover;
+  max-width: 1240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleDescriptionContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.categoryDateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
 }
 
 .title {
-  text-align: center;
-  font-size: 32px;
+  text-align: left;
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-family: 'EB Garamond';
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 0 20px 0;
+  color: var(--darkGray);
 }
