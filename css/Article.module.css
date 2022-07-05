@@ -1,0 +1,15 @@
+.article {
+  margin: 20px auto;
+  box-sizing: border-box;
+  max-width: 1240px;
+}
+
+.img {
+  width: 700px;
+  object-fit: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+}

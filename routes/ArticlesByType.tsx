@@ -12,7 +12,7 @@ function ArticlesByType(props) {
       <div className={styles.articlesAdvertContainer}>
         <div className={styles.articlesContainer}>
           {articles.map((article) => (
-            <div className={`${styles.article}`}>
+            <div key={article.articleId} className={`${styles.article}`}>
               <img
                 src={article.previewImg}
                 className={styles.img}

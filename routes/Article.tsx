@@ -11,14 +11,14 @@ function Article() {
 
   return (
     <div className={`${styles.article}`}>
-      <img src={article.previewImg} />
+      <h2 className={styles.title}>{article.title}</h2>
 
       <div className={styles.categoryDateContainer}>
         <p className={styles.category}>{article.category}</p>
         <p className={styles.date}>{article.publicationDate}</p>
       </div>
 
-      <h2 className={styles.title}>{article.title}</h2>
+      <img className={styles.img} src={article.previewImg} />
 
       <p className={styles.description}>{article.description}</p>
 
