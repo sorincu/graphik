@@ -42,3 +42,16 @@
   margin: 10px 0 20px 0;
   color: var(--darkGray);
 }
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.paragraph {
+  font-family: 'EB Garamond';
+  font-size: 24px;
+  text-align: left;
+  margin: 40px 0;
+  color: var(--darkGray);
+}

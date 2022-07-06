@@ -21,7 +21,11 @@ function Article() {
 
       <img className={styles.img} src={article.previewImg} />
 
-      <p className={styles.author}>{article.author}</p>
+      <div className={styles.content}>
+        {article.content.map((paragraph) => (
+          <div className={styles.paragraph}>{paragraph}</div>
+        ))}
+      </div>
     </div>
   );
 }
