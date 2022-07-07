@@ -15,7 +15,7 @@ function LargeArticle(props) {
       </div>
 
       <h2 className={styles.title}>{articles[0].title}</h2>
-      <p className={styles.description}>{articles[0].content}</p>
+      <p className={styles.description}>{articles[0].description}</p>
       <p className={styles.author}>{articles[0].author}</p>
     </div>
   );
