@@ -1,6 +1,8 @@
 /* Navbar styling */
 .navbarWrapper {
   background-color: rgb(77, 77, 77);
+  position: fixed;
+  width: 100%;
 }
 
 .navbar {
@@ -26,8 +28,8 @@
 }
 
 .btn:active {
-  border: 1px solid rgb(255, 248, 187);
-  color: rgb(255, 248, 187);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .navbarLinks {

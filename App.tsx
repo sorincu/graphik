@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useLayoutEffect } from 'react';
+import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './index.css';
 
@@ -9,6 +9,7 @@ import categories from './data/categories';
 // modules
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Menu from './components/Menu';
 
 // routes
 import Home from './routes/Home';
@@ -17,6 +18,16 @@ import ArticlesByType from './routes/ArticlesByType';
 import Article from './routes/Article';
 
 export default function App() {
+  const [showMenu, setShowMenu] = useState(true);
+
+  function openMenu() {
+    setShowMenu(true);
+  }
+
+  function closeMenu() {
+    setShowMenu(false);
+  }
+
   return (
     <div>
       <Navbar />
@@ -36,6 +47,8 @@ export default function App() {
 
         <Route path="/articles/:articleId/*" element={<Article />} />
       </Routes>
+
+      <Menu showMenu={showMenu} />
 
       <Footer />
     </div>
