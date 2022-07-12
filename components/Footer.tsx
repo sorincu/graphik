@@ -1,6 +1,9 @@
 import React = require('react');
 import styles from '../css/Footer.module.css';
 
+// routes
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <div className={styles.wrapper}>
@@ -32,7 +35,9 @@ function Footer() {
           </p>
         </div>
 
-        <h2 className={styles.logo}>graphik</h2>
+        <Link to="/">
+          <h2 className={styles.logo}>graphik</h2>
+        </Link>
       </div>
     </div>
   );
