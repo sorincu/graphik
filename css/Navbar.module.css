@@ -12,6 +12,10 @@
   max-width: 1240px;
 }
 
+.navbar > a {
+  color: rgb(77, 77, 77);
+}
+
 .navbarLinks {
   display: flex;
   align-self: center;
@@ -31,17 +35,16 @@
   top: 45px;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .logo:hover {
-  font-size: 50px;
+  color: rgb(231, 231, 231);
 }
 
 .subscribeBtn {
-  padding: 0 20px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  display: flex;
+  align-self: center;
+  font-size: 14px;
+  color: white;
 }

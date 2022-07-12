@@ -38,6 +38,11 @@
   font-size: 32px;
   color: rgb(185, 185, 185);
   text-align: center;
+  transition: all 0.2s ease;
+}
+
+.logo:hover {
+  color: rgb(231, 231, 231);
 }
 
 .copyrightBar {

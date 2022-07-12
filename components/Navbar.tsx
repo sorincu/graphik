@@ -9,15 +9,21 @@ function Navbar() {
         <div className={styles.navbarLinks}>
           <p>Menu</p>
           <p>Search</p>
-          <Link to="/popular">Popular</Link>
-          <Link to="/latest">Latest</Link>
+          <Link to="/popular">
+            <button>Popular</button>
+          </Link>
+          <Link to="/latest">
+            <button>Latest</button>
+          </Link>
         </div>
 
         <Link to="/">
           <h2 className={styles.logo}>graphik</h2>
         </Link>
 
-        <button className={styles.subscribeBtn}>Subscribe</button>
+        <Link to="/">
+          <button className={styles.subscribeBtn}>Subscribe</button>
+        </Link>
       </div>
     </div>
   );

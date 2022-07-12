@@ -38,6 +38,11 @@ a {
   cursor: pointer;
 }
 
+button {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 2px;
+}
+
 h1,
 h2,
 h3,
