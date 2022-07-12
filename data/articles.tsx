@@ -2,7 +2,7 @@ const articles = [
   {
     articleId: 1,
     title: 'America’s Necessary Myth for the World',
-    author: 'Victor Bulhac',
+    author: 'Flying Dutch',
     publicationDate: '11/12/2018',
     category: 'Ideas',
     description:
@@ -18,7 +18,7 @@ const articles = [
   {
     articleId: 2,
     title: 'Different Title',
-    author: 'Victor Bulhac',
+    author: 'Dio The Tiger',
     publicationDate: '11/12/2018',
     category: 'Ideas',
     description:
@@ -32,7 +32,7 @@ const articles = [
   {
     articleId: 3,
     title: 'Changing states',
-    author: 'Victor Bulhac',
+    author: 'Victorious Man',
     publicationDate: '11/12/2018',
     category: 'Ideas',
     description:

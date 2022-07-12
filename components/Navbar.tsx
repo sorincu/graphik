@@ -7,13 +7,13 @@ function Navbar() {
     <div className={styles.navbarWrapper}>
       <div className={styles.navbar}>
         <div className={styles.navbarLinks}>
-          <p>Menu</p>
-          <p>Search</p>
+          <p className={styles.btn}>Menu</p>
+          <p className={styles.btn}>Search</p>
           <Link to="/popular">
-            <button>Popular</button>
+            <p className={styles.btn}>Popular</p>
           </Link>
           <Link to="/latest">
-            <button>Latest</button>
+            <p className={styles.btn}>Latest</p>
           </Link>
         </div>
 
@@ -22,7 +22,7 @@ function Navbar() {
         </Link>
 
         <Link to="/">
-          <button className={styles.subscribeBtn}>Subscribe</button>
+          <p className={styles.btn}>Subscribe</p>
         </Link>
       </div>
     </div>
