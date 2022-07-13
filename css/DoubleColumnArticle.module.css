@@ -10,6 +10,7 @@
 .img {
   max-width: 302px;
   width: 22.4vw;
+  margin-left: 15px;
 }
 
 .author {
@@ -23,6 +24,7 @@
 .categoryDateContainer {
   display: flex;
   justify-content: space-between;
+  margin-left: 15px;
 }
 
 .category {
