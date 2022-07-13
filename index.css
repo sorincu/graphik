@@ -17,6 +17,7 @@
   --mediumFontSize: 18px;
 
   /* Color variables */
+  --primaryColor: rgb(77, 77, 77);
   --lightGray: rgb(187, 187, 187);
   --darkGray: rgb(34, 34, 34);
 }

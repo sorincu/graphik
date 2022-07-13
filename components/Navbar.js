@@ -1,10 +1,16 @@
-import React = require('react');
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../css/Navbar.module.css';
 
 function Navbar() {
+  const navRef = useRef(0);
+
+  useEffect(() => {
+    console.log('The height of the div is: ', navRef.current.offsetHeight);
+  }, []);
+
   return (
-    <div className={styles.navbarWrapper}>
+    <div ref={navRef} className={styles.navbarWrapper}>
       <div className={styles.navbar}>
         <div className={styles.navbarLinks}>
           <p className={styles.btn}>Menu</p>
