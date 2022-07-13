@@ -18,7 +18,7 @@ import ArticlesByType from './routes/ArticlesByType';
 import Article from './routes/Article';
 
 export default function App() {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   function openMenu() {
     setShowMenu(true);
@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar showMenu={showMenu} openMenu={openMenu} closeMenu={closeMenu} />
 
       <Routes>
         <Route path="/" element={<Home />} />

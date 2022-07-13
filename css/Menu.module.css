@@ -1,6 +1,6 @@
 .menuWrapper {
-  background-color: var(--primaryColor);
+  background-image: linear-gradient(var(--primaryColor), rgb(99, 99, 99));
   position: fixed;
-  top: 200px;
+  top: 90px;
   width: 100%;
 }

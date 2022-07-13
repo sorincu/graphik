@@ -1,19 +1,24 @@
-import { useEffect, useRef } from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../css/Navbar.module.css';
 
-function Navbar() {
-  const navRef = useRef(0);
-
-  useEffect(() => {
-    console.log('The height of the div is: ', navRef.current.offsetHeight);
-  }, []);
-
+function Navbar(props) {
   return (
-    <div ref={navRef} className={styles.navbarWrapper}>
+    <div className={styles.navbarWrapper}>
       <div className={styles.navbar}>
         <div className={styles.navbarLinks}>
-          <p className={styles.btn}>Menu</p>
+          <p
+            onClick={() => {
+              if (!props.showMenu) {
+                props.openMenu();
+              } else {
+                props.closeMenu();
+              }
+            }}
+            className={styles.btn}
+          >
+            Menu
+          </p>
           <p className={styles.btn}>Search</p>
           <Link to="/popular">
             <p className={styles.btn}>Popular</p>
