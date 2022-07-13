@@ -11,9 +11,11 @@ export default function Menu(props) {
     <div>
       {props.showMenu && (
         <div className={styles.menuWrapper}>
-          {categories.map((category) => (
-            <p>{category.type} </p>
-          ))}
+          <div className={styles.menu}>
+            {categories.map((category) => (
+              <p className={styles.category}>{category.type} </p>
+            ))}
+          </div>
         </div>
       )}
     </div>
