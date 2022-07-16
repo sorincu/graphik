@@ -15,16 +15,16 @@ function Navbar(props) {
                 props.closeMenu();
               }
             }}
-            className={styles.btn}
+            className="btn"
           >
             Menu
           </p>
-          <p className={styles.btn}>Search</p>
+          <p className="btn">Search</p>
           <Link to="/popular">
-            <p className={styles.btn}>Popular</p>
+            <p className="btn">Popular</p>
           </Link>
           <Link to="/latest">
-            <p className={styles.btn}>Latest</p>
+            <p className="btn">Latest</p>
           </Link>
         </div>
 
@@ -33,7 +33,7 @@ function Navbar(props) {
         </Link>
 
         <Link to="/">
-          <p className={styles.btn}>Subscribe</p>
+          <p className="btn">Subscribe</p>
         </Link>
       </div>
     </div>

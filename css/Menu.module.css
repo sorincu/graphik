@@ -12,6 +12,12 @@
   margin-bottom: 20px;
 }
 
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 25%;
+}
+
 .category {
   color: white;
   font-size: 14px;
