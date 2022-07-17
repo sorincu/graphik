@@ -24,7 +24,11 @@ export default function Menu(props) {
               ))}
             </div>
 
-            <div className={styles.dictionary}>Learn a new word today</div>
+            <div className={styles.dictionary}>
+              <p className={styles.randomWordBtn}>Get a random word</p>
+            </div>
+
+            <div>The</div>
           </div>
         </div>
       )}
