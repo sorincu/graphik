@@ -3,19 +3,25 @@
   position: fixed;
   top: 90px;
   width: 100%;
-  padding-left: 11px;
 }
 
 .menu {
   max-width: 1240px;
   margin: 0 auto;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .categories {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 25%;
+  justify-items: left;
+  align-items: center;
+}
+
+.categories > * {
+  text-transform: uppercase;
 }
 
 .category {

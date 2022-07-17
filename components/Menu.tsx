@@ -1,13 +1,11 @@
 import React = require('react');
+import { Link } from 'react-router-dom';
 
 // styles
 import styles from '../css/Menu.module.css';
 
 // data
 import categories from '../data/categories.tsx';
-
-// modules
-import Category from './Category';
 
 export default function Menu(props) {
   return (
@@ -17,9 +15,16 @@ export default function Menu(props) {
           <div className={styles.menu}>
             <div className={styles.categories}>
               {categories.map((category) => (
-                <p className={`btn ${styles.category}`}>{category.type} </p>
+                <Link
+                  to={`/${category.type}`}
+                  className={`btn ${styles.category}`}
+                >
+                  {category.type}{' '}
+                </Link>
               ))}
             </div>
+
+            <div className={styles.dictionary}>Learn a new word today</div>
           </div>
         </div>
       )}
