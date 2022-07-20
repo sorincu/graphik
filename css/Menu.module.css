@@ -39,11 +39,19 @@
   text-transform: uppercase;
   font-size: 14px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  align-items: flex-start;
 }
 
 .randomWordBtn {
-  border: 1px solid rgba(255, 255, 255, 1);
   padding: 8px 10px;
   border-radius: 2px;
 }
+
+.randomWordBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--primaryColor);
+}
+
+
