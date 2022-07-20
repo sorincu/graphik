@@ -19,13 +19,19 @@ export default function Menu(props) {
                   to={`/${category.type}`}
                   className={`btn ${styles.category}`}
                 >
-                  {category.type}{' '}
+                  {category.type}
                 </Link>
               ))}
             </div>
 
-            <div className={styles.dictionary}>
-              <p className={styles.randomWordBtn}>Get a random word</p>
+            <div className={styles.notesDiv}>
+              <textarea className={styles.notemaker} cols={50} rows={7}>
+                Leave some notes
+              </textarea>
+            </div>
+
+            <div>
+              <p>MMmmmm</p>
             </div>
           </div>
         </div>

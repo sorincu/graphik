@@ -3,6 +3,7 @@
   position: fixed;
   top: 90px;
   width: 100%;
+  border-top: 1px solid white;
 }
 
 .menu {
@@ -23,6 +24,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: left;
   align-items: center;
+  margin-top: 20px;
 }
 
 .categories > * {
@@ -34,24 +36,18 @@
   font-size: 14px;
 }
 
-.dictionary {
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
+.notesDiv {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: flex-start;
 }
 
-.randomWordBtn {
-  padding: 8px 10px;
-  border-radius: 2px;
+.notemaker {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  border: 0;
+  height: 100px;
+  width: 200px;
 }
-
-.randomWordBtn:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--primaryColor);
-}
-
-
