@@ -1,12 +1,12 @@
 const articles = [
   {
     articleId: 1,
-    title: 'America’s Necessary Myth for the World',
+    title: 'Some Title',
     author: 'Flying Dutch',
     publicationDate: '11/12/2018',
     category: 'Ideas',
     description:
-      'The great paradox in the world today is that the “dumb simplicity” of America’s self-perception is both obviously bogus and fundamentally true. The great paradox in the world today is that the “dumb simplicity” of America’s self-perception is both obviously bogus and fundamentally true.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet enim vitae quam cursus elementum. Donec sit amet ligula malesuada, facilisis quam id, imperdiet erat. Donec at consectetur leo. Sed consectetur, arcu ut dignissim pellentesque, libero',
     content: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet enim vitae quam cursus elementum. Donec sit amet ligula malesuada, facilisis quam id, imperdiet erat. Donec at consectetur leo. Sed consectetur, arcu ut dignissim pellentesque, libero ',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet enim vitae quam cursus elementum. Donec sit amet ligula malesuada, facilisis quam id, imperdiet erat. Donec at consectetur leo. Sed consectetur, arcu ut dignissim pellentesque, libero ',
